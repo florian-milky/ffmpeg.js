@@ -3,11 +3,6 @@
 
 var __ffmpegjs_running = false;
 
-// Shim for nodejs
-if (typeof self === "undefined") {
-  self = require("worker_threads")["parentPort"];
-}
-
 self.onmessage = function(e) {
   var msg = e.data;
   if (msg["type"] == "run") {
