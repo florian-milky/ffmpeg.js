@@ -1,6 +1,6 @@
 {
   "name": "ffmpeg-milky.js",
-  "version": "4.2.9004",
+  "version": "4.2.9006",
   "description": "Port of FFmpeg with Emscripten",
   "main": "ffmpeg-webm.js",
   "scripts": {
